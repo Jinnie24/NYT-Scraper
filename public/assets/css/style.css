@@ -1,0 +1,47 @@
+body {
+    background-image: url("/assets/images/background.jpg");
+    padding-top: 80px;
+}
+
+.deleteNote {
+	display: inline-block;
+}
+
+.previousNotes {
+    display: inline-block;
+    width: 90%
+}
+
+#scrape {
+    margin: 4px 0px;
+}
+
+.jumbotron {
+    background-image: url("/assets/images/news.jpg");
+    color: white;
+    
+}
+h1 {
+    font-family: 'Pirata One', cursive;
+}
+li {
+    font-family: 'Pirata One', cursive;
+    font-size: 20px;
+}
+.navbar-brand {
+    font-family: 'UnifrakturMaguntia', cursive;
+    font-size: 35px;
+}
+
+p {
+    font-family: 'Oswald', sans-serif;
+}
+
+h2, h4 {
+    font-family: 'Fredericka the Great', cursive;
+}
+
+.btn {
+    font-family: 'Pirata One', cursive;
+    font-size: 20px;
+}
