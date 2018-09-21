@@ -1,30 +1,31 @@
 # New York Times Article Scraper
 
 ## Overview
-An app that scrapes articles from the New York Times website and lets users save articles and leave comments on the latest news.
+Whenever a user visits this site, the app should scrape news from a NewYorkTimes website and display them for the user. Each scraped article saves to your application database. The limit for scraped articles was set to 20 for better testing and easy use.
 
-![Website](https://github.com/llh914/Mongo-Scraper/blob/master/public/assets/images/nyt.png)
+## Link for heroku website 
+https://fierce-plains-80035.herokuapp.com/
 
-## How It Works
-- Scrape articles by clicking the "Scrape Articles" button.
-- Once articles are loaded, read full article by clicking the link in each article's panel and save articles by clicking the "Save Article" button.
-- Saved articles can be viewed at the "Saved Articles" page.
-- Comments can be added on saved articles by clicking the "Add a Note" button.
-- Saved articles can be deleted by clicking the "Delete" button.
+## Screenshots
+![Screen shot](public/assets/images/NewYorkTimes.png)
 
-[Check out the App](https://sheltered-gorge-91026.herokuapp.com/)
+## Functionality
+
+* User can scrape new articles by clicking "Scrape Articles" button.
+* User can save the articles by clicking "Save Article" button under each scraped article. Save articles will appeir under the "Saved Articles" section.
+* User can see list of the saved articles by clicking "Saved articles" nav item.
+* User can add a note for the saved article by clicking "Add a Note" button under the saved article panel inside the Note module.
+* User can delete existing note for the saved article by clicking "X" button inside the Note module.
+* User can delete saved article by clicking "Delete" button under the saved article panel.
 
 ## Technologies Used
-- Node.js
-- Express.js
-- Handlebars.js
-- MongoDB
-- Mongoose
-- npm packages
-    - body-parser
-    - express
-    - express-handlebars
-    - mongoose
-    - cheerio
-    - request
+* Node.js
+* Express.js
+* MongoDB
+* Mongoose
+* Handlebars.js
+* Body-parser
+* Cheerio
+* Request
+
 

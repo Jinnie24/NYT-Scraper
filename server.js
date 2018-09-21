@@ -47,7 +47,7 @@ app.get("/", function(req, res) {
       var hbsObject = {
         article: data
       };
-      res.render("home", hbsObject);
+      res.render("index", hbsObject);
     });
 });
 
