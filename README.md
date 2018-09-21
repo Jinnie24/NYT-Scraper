@@ -17,6 +17,7 @@ https://fierce-plains-80035.herokuapp.com/
 * User can add a note for the saved article by clicking "Add a Note" button under the saved article panel inside the Note module.
 * User can delete existing note for the saved article by clicking "X" button inside the Note module.
 * User can delete saved article by clicking "Delete" button under the saved article panel.
+* User can return to the list of scraped articles by clicking "Mongo Scraper" or "Home" nav items.
 
 ## Technologies Used
 * Node.js
